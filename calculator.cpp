@@ -16,3 +16,11 @@ double addition(double,double)
 	add=a+b;
 	cout<<"Addition is: "<<add<<endl;
 }
+double multiply(double,double)
+{
+	double h,j,mul;
+	cout<<"Enter two no.s\n"<<endl;
+	cin>>h>>j;
+	mul=h*j;
+	cout<<"Multiplication is : "<<mul<<endl;
+}
