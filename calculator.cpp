@@ -2,7 +2,7 @@
 using namespace std;
 class Calculator
 {
-	public:
+	public: //I am not able to understand this line
 	double addition(double,double);
 	double subtraction(double,double);
 	double multiply(double,double);
