@@ -16,3 +16,12 @@ double addition(double,double)
 	add=a+b;
 	cout<<"Addition is: "<<add<<endl;
 }
+double divide(double,double)
+{
+	double a,b,div;
+	cout<<"Enter 2 Numbers"<<endl;
+	cin>>a>>b;
+	div=a/b;
+	cout<<"Division is: "<<div<<endl;
+}
+
