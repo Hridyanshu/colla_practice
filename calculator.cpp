@@ -2,7 +2,7 @@
 using namespace std;
 class Calculator
 {
-	public:
+	public: //I am not able to understand this line
 	double addition(double,double);
 	double subtraction(double,double);
 	double multiply(double,double);
@@ -16,6 +16,7 @@ double addition(double,double)
 	add=a+b;
 	cout<<"Addition is: "<<add<<endl;
 }
+
 double subtraction( double , double )
 {
 	double a,b,sub;
@@ -23,5 +24,15 @@ double subtraction( double , double )
 	cin>>a>>b;
 	sub=a-b;
 	cout<<"Subtraction is: "<<sub<<endl;
+}
+
+
+double multiply(double,double)
+{
+	double h,j,mul;
+	cout<<"Enter two no.s\n"<<endl;
+	cin>>h>>j;
+	mul=h*j;
+	cout<<"Multiplication is : "<<mul<<endl;
 }
 
